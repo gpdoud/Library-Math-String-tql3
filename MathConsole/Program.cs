@@ -11,8 +11,9 @@ public class Program {
 
     static void Main(string[] args) {
 
-        var fact = MathLib.Math.Fact(5);
-        Console.WriteLine(fact);
+        var nbr = 6;
+        var fact = MathLib.Math.Fact(nbr);
+        Console.WriteLine($"Factorial of {nbr} is {fact}");
 
         var mod = MathLib.Math.Mod(8, 3);
         Console.WriteLine($"8 % 3 is {mod}");
