@@ -12,6 +12,8 @@ public class Program {
     static void Main(string[] args) {
 
         var nbr = 6;
+        var x = 3;
+        var y = 5;
         var fact = MathLib.Math.Fact(nbr);
         Console.WriteLine($"Factorial of {nbr} is {fact}");
 
@@ -22,7 +24,7 @@ public class Program {
         var newStr = sl.Concat("Hello,", "World!");
         Console.WriteLine(newStr);
 
-        var converted = sl.ToUpperEveryOther("a1B2C3d4e5F6G7");
+        var converted = sl.ToUpperEveryOther("a1B2C3d$4e5F6G7");
         Console.WriteLine(converted);
 
         var answer = MathLib.Math.Add(11, 22);

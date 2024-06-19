@@ -3,7 +3,7 @@
 public class StringLibrary {
 
     public string Concat(string str1, string str2) {
-        return $"{str1} {str2}"; // str1 + " " + str2
+        return $"{str1} {str2}"; 
     }
 
     public string ToUpperEveryOther(string str) {
@@ -16,11 +16,10 @@ public class StringLibrary {
             }
             if(toUpper) {
                 converted += ch.ToString().ToUpper();
-                toUpper = !toUpper;
             } else {
                 converted += ch.ToString().ToLower();
-                toUpper = !toUpper;
             }
+            toUpper = !toUpper;
         }
             return converted;
     }
