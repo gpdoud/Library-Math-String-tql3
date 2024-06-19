@@ -21,7 +21,7 @@ public class Program {
         var newStr = sl.Concat("Hello,", "World!");
         Console.WriteLine(newStr);
 
-        var converted = sl.ToUpperEveryOther("aBCdeFG");
+        var converted = sl.ToUpperEveryOther("a1B2C3d4e5F6G7");
         Console.WriteLine(converted);
 
         var answer = MathLib.Math.Add(11, 22);
